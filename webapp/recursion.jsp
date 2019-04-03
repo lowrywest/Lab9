@@ -161,11 +161,11 @@
     {
         if (height == 1) 
         {
-    	   return branchingFactor;
+  	  return 1;
         }
 	else
 	{
-	return 
+	  return barachingFactor +nnaryTreeSize(branchingFactor*branchingFactor,height); 
 	}
         
     	//TODO
