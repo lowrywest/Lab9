@@ -165,7 +165,7 @@
         }
 	else
 	{
-	  return barachingFactor +nnaryTreeSize(branchingFactor*branchingFactor,height); 
+	  return branchingFactor +nnaryTreeSize(branchingFactor*branchingFactor,height); 
 	}
         
     	//TODO
